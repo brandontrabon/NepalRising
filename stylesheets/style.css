@@ -5643,7 +5643,7 @@ a:hover {
   text-decoration: underline; }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto; }
 
 .page-container {
@@ -5693,9 +5693,14 @@ img {
   color: white; }
 
 .navbar-default {
-  background-color: rgba(200, 200, 200, 0.2);
-  border-color: rgba(200, 200, 200, 0.2); }
+  background-color: #3d3c3c;
+  border-color: transparent; }
   .navbar-default .navbar-nav > li > a {
+    color: white; }
+  .navbar-default .navbar-nav li > a:hover {
+    color: white;
+    text-decoration: underline; }
+  .navbar-default .navbar-nav li > a:focus {
     color: white; }
 
 .home-page {
@@ -5729,20 +5734,28 @@ img {
 
 .global-donate {
   margin-top: 20px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #5c7b37; }
 
-.cities {
+.cities-button {
   text-align: center;
   width: 100%;
   display: inline-block;
   margin-top: 10px;
   padding: 10px;
-  background: #373737;
+  margin-bottom: 15px;
+  background: #DFDFDF;
   border-radius: 5px;
-  color: white; }
+  color: black;
+  text-align: center; }
+
+.cities-button:hover {
+  background-color: #BDBDBD;
+  text-decoration: underline;
+  color: black; }
 
 .city-list {
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 60px; }
 
 .contact-page {
@@ -5821,5 +5834,5 @@ img {
   margin: 0; }
 
 .media-object {
-  max-width: inherit;
+  width: inherit;
   height: 100%; }
