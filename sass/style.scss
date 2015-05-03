@@ -1,6 +1,7 @@
-﻿@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 
 @import "_mixins.scss";
+@import "_vars.scss";
 @import "_background.scss";
 @import "_pageContainer.scss";
 @import "_columns.scss";
@@ -13,3 +14,6 @@
 @import "pages/_campaignPage.scss";
 @import "pages/_actionPage.scss";
 @import "pages/_contactPage.scss";
+
+@import "pages/cities/_boston.scss";
+@import "pages/cities/_cities.scss";

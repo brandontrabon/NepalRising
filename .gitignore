@@ -17,3 +17,4 @@ Thumbs.db
 [Dd]ebug*/
 *.sbr
 obj/
+.sass-cache/

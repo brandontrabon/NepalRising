@@ -1,4 +1,4 @@
-﻿@import "_mixins.scss";
+@import "_mixins.scss";
 
 .page-container {
     font-size: 12pt;
@@ -20,5 +20,18 @@
 
     .text-center {
         text-align: center;
+    }
+    
+    .page-title {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    
+    .page-sub-title {
+          display: block;
+          margin: 0;
+          font-weight: 300;
+          color: rgb(150, 150, 150);
+          font-size: 20px;
     }
 }
