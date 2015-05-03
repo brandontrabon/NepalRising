@@ -1,0 +1,14 @@
+﻿@import "_mixins.scss";
+
+.centered-hover-message {
+    z-index: 1000;
+    background: grey;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 1em;
+    @include vertical-align-center;
+
+    .message-text {
+        color: white;
+        font-size: 20pt;
+    }
+}

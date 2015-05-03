@@ -1,0 +1,15 @@
+﻿@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+@import "_mixins.scss";
+@import "_background.scss";
+@import "_pageContainer.scss";
+@import "_columns.scss";
+@import "_messages.scss";
+@import "_buttons.scss";
+
+@import "bootstrap/_navs.scss";
+
+@import "pages/_homePage.scss";
+@import "pages/_campaignPage.scss";
+@import "pages/_actionPage.scss";
+@import "pages/_contactPage.scss";

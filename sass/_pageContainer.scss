@@ -1,0 +1,24 @@
+﻿@import "_mixins.scss";
+
+.page-container {
+    font-size: 12pt;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    overflow: hidden;
+
+    .padding-left {
+        padding-left: 20px;
+    }
+
+    .text-padding {
+        padding: 1em;
+    }
+
+    .text-bold {
+        font-weight: bold;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+}
