@@ -1,4 +1,4 @@
-﻿var app = angular.module('napalRising', ['ngRoute', 'ngCookies']);
+﻿var app = angular.module('napalRising', ['ngRoute', 'ngCookies', 'ui.bootstrap']);
 
 app.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/', {
