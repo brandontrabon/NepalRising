@@ -1,0 +1,63 @@
+.city-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.city-header {
+    color: $primary-color;
+    font-weight: bold;
+}
+
+.city-subheader {
+    font-weight: 300;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.city-mission {
+    padding-bottom: 20px;
+    padding-top: 50px;
+    border-bottom: 1px solid $primary-color;
+    
+    h1 {
+        text-align: center;
+    }
+}
+
+.city-members {
+    margin-top: 60px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid $primary-color;
+}
+
+
+
+.city-donate-form {
+    width: 100%;
+    padding-top: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.city-actions {
+    list-style: none;
+    padding: 0;
+    
+    li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+// Modify the page container tags
+
+.page-container {
+    .page-title {
+        padding-top: 85px;
+        padding-bottom: 0;
+    }
+}
+
+.media-detail {
+    margin: 0;
+}
