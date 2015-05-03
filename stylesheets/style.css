@@ -5635,6 +5635,17 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+a {
+  color: #5c7b37; }
+
+a:hover {
+  color: #5c7b37;
+  text-decoration: underline; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
 .page-container {
   font-size: 12pt;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -5711,8 +5722,58 @@ button.close {
 .action-page {
   margin-top: 52px; }
 
+.intro-content {
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #5c7b37; }
+
+.global-donate {
+  margin-top: 20px;
+  border-bottom: 1px solid #5c7b37; }
+
+.cities {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  background: #373737;
+  border-radius: 5px;
+  color: white; }
+
+.city-list {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
 .contact-page {
   margin-top: 52px; }
+
+.flag-title {
+  display: block;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #5c7b37; }
+
+.contact-information {
+  padding-bottom: 40px; }
+
+.underline {
+  background-color: #5c7b37;
+  height: 1px; }
+
+.contact-email {
+  padding-top: 40px;
+  width: 100%;
+  text-align: center; }
+
+.mail-icon {
+  padding-right: 10px;
+  display: inline-block; }
+
+.small-detail-text {
+  color: gray;
+  text-align: center;
+  padding-top: 40px; }
 
 .city-header-container {
   display: flex;
@@ -5752,9 +5813,13 @@ button.close {
     padding-top: 10px;
     padding-bottom: 10px; }
 
-.page-container .page-title {
+.page-container .page-title-city {
   padding-top: 85px;
   padding-bottom: 0; }
 
 .media-detail {
   margin: 0; }
+
+.media-object {
+  max-width: inherit;
+  height: 100%; }

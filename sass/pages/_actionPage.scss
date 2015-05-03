@@ -1,3 +1,30 @@
 .action-page {
     margin-top: 52px;
 }
+
+.intro-content {
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid $primary-color;
+}
+
+.global-donate {
+    margin-top: 20px;
+    border-bottom: 1px solid $primary-color;
+}
+
+.cities {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background: #373737;
+    border-radius: 5px;
+    color: white;
+}
+
+.city-list {
+    padding-top: 60px;
+    padding-bottom: 60px;   
+}

@@ -1,0 +1,13 @@
+a {
+    color: $primary-color;
+}
+
+    a:hover {
+        color: $primary-color;
+        text-decoration: underline;
+    }
+
+img {
+    max-width: 100%;
+    height: auto;
+}

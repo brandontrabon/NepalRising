@@ -52,7 +52,7 @@
 // Modify the page container tags
 
 .page-container {
-    .page-title {
+    .page-title-city {
         padding-top: 85px;
         padding-bottom: 0;
     }
@@ -60,4 +60,9 @@
 
 .media-detail {
     margin: 0;
+}
+
+.media-object {
+    max-width: inherit;
+    height: 100%;
 }

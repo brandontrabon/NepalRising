@@ -1,3 +1,36 @@
 .contact-page {
     margin-top: 52px;
 }
+
+.flag-title {
+    display: block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid $primary-color;
+}
+
+.contact-information {
+    padding-bottom: 40px;
+}
+
+.underline {
+    background-color: $primary-color;
+    height: 1px;
+}
+
+.contact-email {
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.mail-icon {
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.small-detail-text {
+    color: gray;
+    text-align: center;
+    padding-top: 40px;
+}
