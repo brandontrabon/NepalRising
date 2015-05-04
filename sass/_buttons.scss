@@ -1,7 +1,65 @@
 // Donate Button \\
 
 .donate-button {
-    width: 9em;
+   /* width: 9em;
     background-color: $primary-color;
-    color: white;
+    color: white;*/
+    background: none;
+    background-image: url(../images/paypal.png);
+    background-repeat: no-repeat;
+    width: 211px;
+    height: 80px;
+}
+
+.donate-button:hover {
+    background-image: url(../images/paypal.png);
+    background-repeat: no-repeat;
+}
+
+.donate-button:focus {
+    background-image: url(../images/paypal.png);
+    background-repeat: no-repeat;
+}
+
+.donate-button-small {
+   /* width: 9em;
+    background-color: $primary-color;
+    color: white;*/
+    background: none;
+    background-image: url(../images/paypal-small.png);
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 80px;
+}
+
+.donate-button-small:hover {
+    background-image: url(../images/paypal-small.png);
+    background-repeat: no-repeat;
+}
+
+.donate-button-small:focus {
+    background-image: url(../images/paypal-small.png);
+    background-repeat: no-repeat;
+}
+
+.donate-button-subheader {
+   /* width: 9em;
+    background-color: $primary-color;
+    color: white;*/
+    padding-top: 0px;
+    background: none;
+    background-image: url(../images/paypal-small.png);
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 80px;
+}
+
+.donate-button-subheader:hover {
+    background-image: url(../images/paypal-small.png);
+    background-repeat: no-repeat;
+}
+
+.donate-button-subheader:focus {
+    background-image: url(../images/paypal-small.png);
+    background-repeat: no-repeat;
 }

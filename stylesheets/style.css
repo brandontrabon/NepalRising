@@ -5646,6 +5646,14 @@ img {
   width: 100%;
   height: auto; }
 
+.floating-logo {
+  position: absolute;
+  top: 7px;
+  left: 11px;
+  width: 150px;
+  height: 150px;
+  z-index: 200000; }
+
 .page-container {
   font-size: 12pt;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -5688,12 +5696,62 @@ img {
     font-size: 20pt; }
 
 .donate-button {
-  width: 9em;
-  background-color: #5c7b37;
-  color: white; }
+  /* width: 9em;
+   background-color: $primary-color;
+   color: white;*/
+  background: none;
+  background-image: url(../images/paypal.png);
+  background-repeat: no-repeat;
+  width: 211px;
+  height: 80px; }
+
+.donate-button:hover {
+  background-image: url(../images/paypal.png);
+  background-repeat: no-repeat; }
+
+.donate-button:focus {
+  background-image: url(../images/paypal.png);
+  background-repeat: no-repeat; }
+
+.donate-button-small {
+  /* width: 9em;
+   background-color: $primary-color;
+   color: white;*/
+  background: none;
+  background-image: url(../images/paypal-small.png);
+  background-repeat: no-repeat;
+  width: 165px;
+  height: 80px; }
+
+.donate-button-small:hover {
+  background-image: url(../images/paypal-small.png);
+  background-repeat: no-repeat; }
+
+.donate-button-small:focus {
+  background-image: url(../images/paypal-small.png);
+  background-repeat: no-repeat; }
+
+.donate-button-subheader {
+  /* width: 9em;
+   background-color: $primary-color;
+   color: white;*/
+  padding-top: 0px;
+  background: none;
+  background-image: url(../images/paypal-small.png);
+  background-repeat: no-repeat;
+  width: 165px;
+  height: 80px; }
+
+.donate-button-subheader:hover {
+  background-image: url(../images/paypal-small.png);
+  background-repeat: no-repeat; }
+
+.donate-button-subheader:focus {
+  background-image: url(../images/paypal-small.png);
+  background-repeat: no-repeat; }
 
 .navbar-default {
-  background-color: #3d3c3c;
+  background-color: #595555;
   border-color: transparent; }
   .navbar-default .navbar-nav > li > a {
     color: white; }
@@ -5706,7 +5764,7 @@ img {
 .home-page {
   width: 100%;
   height: 100vh;
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/bg-hands.jpg");
   background-size: cover; }
 
 .home-page-cover {
@@ -5718,11 +5776,72 @@ img {
   opacity: 1;
   background-image: url("../images/pattern.png");
   background-repeat: repeat repeat;
-  z-index: 501; }
+  z-index: 10; }
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  z-index: 100;
+  position: relative; }
+
+.home .message {
+  background: rgba(2, 2, 2, 0.42);
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  color: white; }
+
+.small {
+  opacity: 0.8;
+  font-size: 14px; }
+
+.home {
+  height: 100vh; }
+
+.home .donate-button {
+  margin-top: 50px; }
+
+.nepal-img {
+  max-width: 500px;
+  padding-bottom: 40px; }
+
+small {
+  color: gray;
+  font-size: 9px;
+  padding-top: 40px; }
+
+.social-link {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 30px;
+  color: white; }
+
+.social-link:hover {
+  color: white; }
+
+.social-link:focus {
+  color: white; }
 
 .campaign-page {
   margin-top: 52px;
   text-align: left; }
+
+.small-detail {
+  color: gray;
+  font-size: 13px;
+  text-align: center; }
+
+.campaign-image {
+  max-width: 800px; }
+
+.line-title {
+  border-top: 1px solid #5c7b37; }
+
+.space {
+  padding-bottom: 30px; }
 
 .action-page {
   margin-top: 52px; }
@@ -5754,9 +5873,49 @@ img {
   text-decoration: underline;
   color: black; }
 
+.cities-button-large {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+  background: #DFDFDF;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  font-size: 22px; }
+
+.cities-button-large:hover {
+  background-color: #BDBDBD;
+  text-decoration: underline;
+  color: black; }
+
 .city-list {
   padding-top: 40px;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  border-bottom: 1px solid #5c7b37; }
+
+.progressbar {
+  height: 2px;
+  background-color: #bebdbd;
+  width: 350px; }
+
+.progress {
+  background-color: #9DE04D;
+  color: white;
+  width: 50%;
+  height: 100%;
+  text-align: center; }
+
+.total-last-logged {
+  padding-top: 5px; }
+
+.total {
+  color: #5c7b37;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  margin: 0; }
 
 .contact-page {
   margin-top: 52px; }
@@ -5766,6 +5925,9 @@ img {
   padding-bottom: 5px;
   margin-bottom: 10px;
   border-bottom: 1px solid #5c7b37; }
+  .flag-title img {
+    width: auto;
+    max-width: 100%; }
 
 .contact-information {
   padding-bottom: 40px; }
@@ -5788,6 +5950,13 @@ img {
   text-align: center;
   padding-top: 40px; }
 
+.dc .col-md-3 {
+  height: 100px; }
+
+.dc img {
+  width: 64px;
+  height: 64px; }
+
 .city-header-container {
   display: flex;
   align-items: center; }
@@ -5806,7 +5975,8 @@ img {
   padding-top: 50px;
   border-bottom: 1px solid #5c7b37; }
   .city-mission h1 {
-    text-align: center; }
+    text-align: center;
+    font-size: 18px; }
 
 .city-members {
   margin-top: 60px;
@@ -5816,6 +5986,18 @@ img {
 .city-donate-form {
   width: 100%;
   padding-top: 30px;
+  display: inline-block;
+  text-align: center; }
+
+.city-donate-form-left {
+  width: 100%;
+  padding-top: 30px;
+  display: inline-block;
+  text-align: left; }
+
+.city-donate-form-subheader {
+  width: 100%;
+  padding-top: 10px;
   display: inline-block;
   text-align: center; }
 

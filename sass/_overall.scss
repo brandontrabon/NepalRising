@@ -11,3 +11,12 @@ img {
     width: 100%;
     height: auto;
 }
+
+.floating-logo {
+    position: absolute;
+    top: 7px;
+    left: 11px;
+    width: 150px;
+    height: 150px;
+    z-index: 200000;
+}

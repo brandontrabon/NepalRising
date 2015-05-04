@@ -28,6 +28,26 @@ app.config(['$routeProvider', function ($routeProvider) {
         controller: 'contactController'
     });
     
+     $routeProvider.when('/austin', {
+        templateUrl: 'views/cities/austin.html',
+        controller: 'contactController'
+    });
+    
+     $routeProvider.when('/dc', {
+        templateUrl: 'views/cities/dc.html',
+        controller: 'contactController'
+    });
+    
+     $routeProvider.when('/chicago', {
+        templateUrl: 'views/cities/chicago.html',
+        controller: 'contactController'
+    });
+    
+     $routeProvider.when('/dallas', {
+        templateUrl: 'views/cities/dallas.html',
+        controller: 'contactController'
+    });
+    
     $routeProvider.otherwise({
         redirectTo: '/'
     });

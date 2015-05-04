@@ -21,6 +21,7 @@
     
     h1 {
         text-align: center;
+        font-size: 18px;
     }
 }
 
@@ -38,6 +39,21 @@
     display: inline-block;
     text-align: center;
 }
+
+.city-donate-form-left {
+    width: 100%;
+    padding-top: 30px;
+    display: inline-block;
+    text-align: left;
+}
+
+.city-donate-form-subheader {
+    width: 100%;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
 
 .city-actions {
     list-style: none;

@@ -33,7 +33,54 @@
         color: black;
     }
 
+.cities-button-large {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #DFDFDF;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+}
+
+    .cities-button-large:hover {
+        background-color: #BDBDBD;
+        text-decoration: underline;
+        color: black;
+    }
+
 .city-list {
     padding-top: 40px;
-    padding-bottom: 60px;   
+    padding-bottom: 60px; 
+    border-bottom: 1px solid $primary-color;
 }
+
+.progressbar {
+    height: 2px;
+    background-color: rgb(190, 189, 189);
+    width: 350px;
+}
+
+.progress {
+    background-color: #9DE04D;
+    color: white;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.total-last-logged {
+    padding-top: 5px;
+}
+
+.total {
+    color: $primary-color;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+    
